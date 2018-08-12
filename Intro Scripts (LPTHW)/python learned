@@ -1,0 +1,13 @@
+%d passes numbers in string
+%s passes string in string
+%r passes whatever is the variable
+
+search online for format characters
+
+variable = raw_input("question")
+
+PYDOC like man pages
+
+filename = raw_input()
+variable = open(filename)
+print variable.read()

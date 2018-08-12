@@ -1,0 +1,286 @@
+<!DOCTYPE HTML>
+<!--COMMENT-->
+<!---->
+
+<html lang="en">
+<head>
+
+<meta charset="UTF-8"/>
+
+<!--meta http-equiv="refresh" content="3; url=redirect.html"/--> <!-- redirect to url after 3 seconds-->
+
+
+<meta name="description" content="here is a description of the site"/>
+
+<meta name="keywords" content="describe the site as well, separate with commas"/>
+<meta name="robots" content="index,follow"/> <!-- specifies if an engine should index the page-->
+<!--script src="randomcolorchange.js"--></script>
+
+<!--base href="http://localhost/html"/> used for all relative links.  set once for all paths. -->
+
+
+<link rel="stylesheet" type="text/css" href="styles.css"> <!-- change stylesheet-->
+<!--link rel="icon" href="favicon.ico"/--> <!-- 16x16 png file, change icon in title-->
+
+<title> HTML Tutorial </title>
+
+</head>
+
+<!--body onload="alert('Hello')"> <!--alert when page is loaded-->
+
+
+<body>
+
+
+<div id="wrapper">
+
+	<header>
+	This is the header and can also put a logo and stuff
+	</header>
+	
+	<nav id="horzNav">
+		<p>
+		links and stuff here in the nav
+		</p>
+	</nav>
+	
+	<main id="content">
+		<section>		
+		<h2>Fun fact</h2>
+			<article>
+				<h3> tomato fact</h3>
+				<p> Here is tomato info</p>
+				<aside> some aside info </aside>
+			</article>
+		</section>
+		
+		<section>
+			<h2>Fun fact2 </h2>
+			<ul id="UL">
+			<li>unordered</li>
+			<li>ordered</li>
+			</ul>
+			
+			<ol id="OL">
+			<li>harry potter</li>
+			<li>goosebumps</li>
+				<article>
+				<dl>
+				<dt><dfn>Definition</dfn></dt>
+				<dd>The act of making definite</dd>
+				</dl>
+				<aside>some more aside info in the 2nd section</aside>				
+				</article>
+			</section>
+			
+		<section>	
+			<h2> Fun Facts for section 3</h2>
+			<article>
+			<h3> Tables </h3>
+			<table id="TD">
+				<caption>Baseball</caption>
+				<thead>
+					<tr>
+						<td colspan="4">Best baseball players</td>
+					</tr>
+				</thead>
+				<tfoot>
+					<tr><td colspan="4">* Hall of Fame</td></tr>
+				</tfoot>
+				<tbody>
+					<tr>
+						<td></td>
+						<td>Average</td>
+						<td>RBIs</td>
+						<td>Homeruns</td>
+					</tr>
+					<tr>
+						<td>Hank Aaron*</td>
+						<td>.305</td>
+						<td>2297</td>
+						<td>755</td>
+					</tr>
+				</tbody>
+			</table>
+				
+		
+		
+	</main>
+	
+	
+
+
+
+
+
+
+<noscript>Please enable JS</noscript><!--alert if they don't have JS-->
+<h1>Change with a click</h1>
+
+<a name="pageTop">Top of Page</a>
+
+<img id="danceImg" src="www.whatever.com" width="200" height="170" alt="dance fail"><br><!--insert img-->
+
+<b>bold</b><br>
+<strong>strong</strong><br>
+<em>emphasis</em><br>
+<i>italic</i><br>
+<small></small>
+<ins></ins>
+<del></del>
+<samp></samp>
+<!--can create appreviation too-->
+<dfn title="here is the definition"> Definition </dfn><br> <!--hover over to display-->
+<kbd> Enter something here</kbd>
+4<sup>2</sup> <!--superscript-->
+
+<a href="http://youtube.com" title="YouTube"> Youtube </a>
+
+<p>
+Here is some text for a paragraph and some stuff
+paragraph tag will add 2 line breaks after.
+</p>
+<hr> <!--draw a line-->
+<blockquote cite="http://whatever.com">
+some blockquote text
+</blockquote><!--indent block-->
+
+<q cite="where it came from">
+random quotes
+</q><!--quotes-->
+
+<pre>
+<!--indent for ascii??-->
+</pre>
+
+<p>
+sadfasddfasddfasdfasddfasddfasdfasdf
+asdfasdfasdfasdfasdfasdf
+asdfd
+assdfas
+fasdf
+asdfasdfasdfasdfasdfasdfasdf
+asdfasdfasdfasdfasdfasdfsadf
+<br>
+asdfasdfasdfads
+<br>
+asdfasdfasdfasdfasdfasdf
+</p>
+
+<a href=learn_HTML.html#pageTop> Top of Page</a>
+<a id="pageBottom">Bottom of Page</a>
+<br/><br/>
+<a href="mailto:someemail@mail.com">send email</a>
+<br>
+<!--a href="javascript:toggleImg()">Toggle Image</a>  create dynamic content --> 
+
+
+<img src="formatlines.jpg" alt="imagemap example" width="300" height="300" usemap="#map"/>
+<!-- can create image maps in GIMP so there is an invisible clickable field on image areas-->
+
+<!-- embed PDF or webpage-->
+<object data="linux.pdf" type="application/pdf" width="750" height="400">
+</object>
+
+<object data="learn_HTML.html" type="text/html" width="750" height="400"></object>
+
+<!--play audio-->
+<object data="LINK TO WAVE HTTP OR LOCAL??" type="audio/x-wav"></object>
+<param name="autoplay" value="true">
+<param name="controller" value="true">
+
+
+<!-- embed video-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z3PpphdrEmU" allowfullscreen="true">
+</iframe>
+
+<!-- embed flash-->
+<embed src="http://www.itma.vt.edu/tech/flash.swf" pluginspage="something" type="applicatoin/x-shockwave-flash" width="300" height="120" loop="false" quality="high">
+
+<audio controls autoplay preload>
+	<source src="MJ1.mp3" type="audio/mp3">
+	Browser doesn't support audio tag
+</audio>
+
+
+<video controls autoplay loop preload>
+	<source src="http://somemp4 file" type="video/mp4">
+	</video>
+	
+
+	
+	<form method="GET" action="pgpscript.php">
+	Your Name: <input type="text" name="name" size="50" maxlength="50"><br>
+	Your Password: <input type="password" name="password"><br>
+	
+	<input type="hidden" name="browser" id="browser">
+	<input type="file" name="upload">
+	
+	<input type="image" alt="logo" src="formatlines.jpg">
+	
+	
+	Your History: <br>
+	<textarea name="history" rows="20" cols="50">Just random words for lot of data</textarea>
+	<br>
+	Favorite Number:
+	<select name="favNum">
+		<option value="PI">Pi 3.14</option>
+		<option value="EulersNum">Eulers number 2.718</option>
+		<option value="Etc">Etcetera</option>
+	</select>
+	
+	<!-- can also create option groups for different groups in dropdown-->
+	
+	<input type="submit" name="submit" value="Sumbit">
+	<input type="reset" value="Reset">
+	
+	<fieldset>
+		<legend>Hobbies</legend>
+		Programming <input type="checkbox" name="programming" value="Programming">
+	</fieldset>
+	<fieldset>
+	<legend>Sports</legend>
+		soccer <input type="radio" name="skill" value="Soccer" checked> <!-- checked by default-->
+	</fieldset>
+	
+	
+	
+	
+	
+	</form>
+	
+	<!-- can create canvas in javascript-->
+	<canvas id="canvas" width="800" height="400">
+	</canvas>
+	
+	
+	
+	
+	
+
+	
+	
+
+
+
+<footer>
+		<address>mail@mail.com</address>
+		<small>copyright</small>
+	
+	</footer>
+
+
+
+
+</div>
+
+
+
+
+
+</body>
+
+
+
+
+</html>

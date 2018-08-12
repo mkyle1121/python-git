@@ -1,0 +1,7 @@
+what is %d and %s and %r do?
+
+import arguments on ex13
+
+pull variable from list--test
+
+test how to test if an integer

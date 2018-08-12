@@ -1,0 +1,24 @@
+body {background: green;}
+
+#div_1 {margin: 25px; background: white; width: auto; height: 300px;}
+
+p {font-family: Arial;}
+
+span {margin: 20px; font-family: Arial;}
+
+nav {background: black; color: white; height: 40px; text-align: center;}
+
+.span_div_1 {background: red;}
+
+footer {background: black; color: red; text-align: center;}
+
+div {background: purple; margin: 10px; height: auto;}
+
+main {text-align: center;}
+
+#div_2 {background: yellow; height: 400px; width: auto; margin: 40px;}
+
+#ninja {margin: 20px;}
+
+.inside_div {background: blue; height: 300px; width: auto; margin: 40px;}
+
