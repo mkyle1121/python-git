@@ -1,22 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc9546f6-0bbe-4f82-983a-77ff36ecfff3" name="Default" comment="">
+    <list default="true" id="fc9546f6-0bbe-4f82-983a-77ff36ecfff3" name="Default" comment="added work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AWS/dynamodb/dynamodb3.py" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/dynamodb/dynamodb3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Courses/Mega Course/data collector" beforeDir="false" afterPath="$PROJECT_DIR$/Courses/Mega Course/data collector" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Miscellaneous/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/Miscellaneous/request.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1325299769">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="10" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dynamodb3.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AWS/dynamodb/dynamodb3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -28,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="request.py" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Miscellaneous/request.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -40,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dynamodb2.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AWS/dynamodb/dynamodb2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="92" lean-forward="true" selection-start-line="11" selection-start-column="92" selection-end-line="11" selection-end-column="92" />
+              <caret line="11" column="92" selection-start-line="11" selection-start-column="92" selection-end-line="11" selection-end-column="92" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -74,8 +92,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="173" />
+    <option name="y" value="84" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -91,22 +110,6 @@
             <path>
               <item name="python-git" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-git" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-git" type="462c0819:PsiDirectoryNode" />
-              <item name="AWS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-git" type="462c0819:PsiDirectoryNode" />
-              <item name="AWS" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamodb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-git" type="462c0819:PsiDirectoryNode" />
-              <item name="Miscellaneous" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -147,6 +150,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="dynamodb3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-git" />
@@ -165,6 +171,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="request (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-git" />
@@ -183,6 +192,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="request" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-git" />
@@ -201,6 +213,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="requests_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-git" />
@@ -219,6 +234,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.request" />
@@ -259,26 +277,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="173" y="84" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12328767" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32897604" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32897604" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -288,39 +305,12 @@
     <MESSAGE value="8-11-2018" />
     <option name="LAST_COMMIT_MESSAGE" value="8-11-2018" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/misc/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/misc/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/misc/request.py" />
     <entry file="file://$PROJECT_DIR$/AWS/polly/polly.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -328,9 +318,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -342,11 +329,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AWS/IoT/leonard_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-146">
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-146" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AWS/dynamodb/dynamodb.py">
@@ -356,20 +339,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/dynamodb/dynamodb2.py">
+    <entry file="file://$PROJECT_DIR$/AWS/dynamodb/dynamodb3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="92" lean-forward="true" selection-start-line="11" selection-start-column="92" selection-end-line="11" selection-end-column="92" />
+        <state relative-caret-position="136">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/dynamodb/dynamodb3.py">
+    <entry file="file://$PROJECT_DIR$/AWS/dynamodb/dynamodb2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="187">
+          <caret line="11" column="92" selection-start-line="11" selection-start-column="92" selection-end-line="11" selection-end-column="92" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
