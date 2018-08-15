@@ -1,25 +1,16 @@
 import boto3
 import sys
-import time
 
 # Create AWS Route 53 API client
 
 client = boto3.client('route53')
 
-# Read in arguments from command line
-
-domain_name_file = sys.argv[1]
-ip_addresses_old_file = sys.argv[2]
-ip_addresses_new_file = sys.argv[3]
-
-# Double check files
-
-print('\n')
+# Ask for files
 
 try:
-	input(domain_name_file+' LIST OF DOMAIN NAMES? Enter or Ctrl-C')
-	input(ip_addresses_old_file+' LIST OF OLD IP ADDRESSES?  Enter or Ctrl-C')
-	input(ip_addresses_new_file+' LIST OF NEW IP ADDRESSES?  Enter or Ctrl-C ')
+	domain_name_file = input('FILE NAME FOR DOMAIN NAMES? Enter or Ctrl-C: ')
+	ip_addresses_old_file = input('FILE NAME FOR OLD IP ADDRESSES?  Enter or Ctrl-C: ')
+	ip_addresses_new_file = input('FILE NAME FOR NEW IP ADDRESSES?  Enter or Ctrl-C: ')
 except KeyboardInterrupt:
 	sys.exit()
 
